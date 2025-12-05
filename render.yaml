@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: project-manager-api
+    runtime: python
+    buildCommand: cd backend-fastapi && pip install -r requirements.txt
+    startCommand: cd backend-fastapi && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
