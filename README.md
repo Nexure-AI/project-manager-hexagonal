@@ -3,11 +3,11 @@
 A showcase of **hexagonal (clean) architecture** with two backend implementations and a React frontend.
 
 This repository demonstrates:
-- ✅ Clean separation of concerns (domain, application, infrastructure, API layers)
-- ✅ **Two backend implementations**: FastAPI (Python) and Node.js (TypeScript)
-- ✅ A React frontend that can connect to either backend
-- ✅ Production-ready structure and patterns
-- ✅ Full CRUD operations for a simple project management system
+-  Clean separation of concerns (domain, application, infrastructure, API layers)
+-  **Two backend implementations**: FastAPI (Python) and Node.js (TypeScript)
+-  A React frontend that can connect to either backend
+-  Production-ready structure and patterns
+-  Full CRUD operations for a simple project management system
 
 ## 📁 Repository Structure
 
@@ -169,7 +169,7 @@ npm run dev
 
 **API Base**: `http://localhost:3000`
 
-## 🎨 Frontend Details
+## Frontend Details
 
 ### React Frontend (`frontend-react/`)
 
@@ -206,7 +206,7 @@ npm run dev
 
 **Access**: `http://localhost:5173`
 
-## 📚 API Endpoints
+## API Endpoints
 
 Both backends expose identical REST APIs:
 
@@ -219,7 +219,7 @@ Both backends expose identical REST APIs:
 | PUT | `/api/v1/projects/{id}` | Update project |
 | DELETE | `/api/v1/projects/{id}` | Delete project |
 
-## 🧪 Testing
+## Testing
 
 ### FastAPI Tests
 
@@ -247,7 +247,7 @@ curl -X POST http://localhost:8000/api/v1/projects \
 curl http://localhost:8000/api/v1/projects
 ```
 
-## 🎯 Why Hexagonal Architecture?
+## Why Hexagonal Architecture?
 
 This architecture provides:
 
